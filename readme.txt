@@ -1,4 +1,8 @@
-Xiaomi Gamepad
+JD JZ-V3N Gamepad (based on Xiaomi Gamepad protocol)
+
+This controller shares the same HID protocol as the Xiaomi Gamepad.
+The protocol information below was derived from reverse engineering the original Xiaomi controller,
+and it applies to the JD JZ-V3N as well.
 
 It's an excellent controller with an excellent price but it severly lacks documentation and the only place where the accelerometer in it works is when you use it with their T.V boxes.
 
@@ -107,5 +111,3 @@ Input packet:
 
 Input (length 21)
 [byte (0x04)][byte (1 bit per button)][byte (1 bit per button)][byte 0][byte dpad][4 bytes = 4 joystick axis, 1 byte each axis][byte 0][byte 0][byte Ltrigger][byte Rtrigger][6 bytes accelerometer (2 bytes per axis, looks like signed little endian)][byte battery level][byte (MI button)]
-
-

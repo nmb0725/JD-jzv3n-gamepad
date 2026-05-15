@@ -4,7 +4,11 @@
 [![Platform](https://img.shields.io/badge/platform-Windows-brightgreen)](https://github.com/your-repo)
 [![.NET](https://img.shields.io/badge/.NET-4.5.2-blue)](https://dotnet.microsoft.com/)
 
-将京东 JZ-V3N 游戏手柄映射为 Xbox 360 手柄的 Windows 工具。支持震动反馈，无延迟，即插即用。
+
+JD JZ-V3N Gamepad to Xbox 360 Controller Mapper for Windows. Maps the JD (Jingdong) JZ-V3N game controller as a standard Xbox 360 controller via SCP Virtual Bus Driver. Features full rumble support, low latency, and system tray operation. Requires .NET Framework 4.5.2+ and SCP Virtual Bus Driver.
+
+京东 JZ-V3N 游戏手柄 Xbox 360 映射工具。通过 SCP 虚拟总线驱动将京东 JZ-V3N 手柄模拟为标准 Xbox 360 手柄，支持完整震动反馈、低延迟运行和系统托盘后台运行。需要 .NET Framework 4.5.2+ 和 SCP Virtual Bus Driver 驱动。
+
 
 ## 功能特点
 
